@@ -10,6 +10,8 @@ import { FeatureBComponent } from './feature-b.component';
   ],
   imports: [
     CommonModule
+  ], exports: [
+    FeatureBComponent
   ]
 })
 export class FeatureBModule { }
